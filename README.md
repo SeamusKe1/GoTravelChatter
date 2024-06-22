@@ -30,3 +30,7 @@ Dependencies required (pip3 installs):
 - ChatterBot_Corpus
 
 Python version 3.7.9 required.
+
+Acknowledgements:
+*Scholar, P. (15/01/2022). Using Flask to build a Rule-based Chatbot in Python. https://hackernoon.com/using-flask-to-build-a-rule-based-chatbot-in-python 
+*Reviewed website for assistance with portions of HTML, CSS and Javascript code for Chatbot integration 
