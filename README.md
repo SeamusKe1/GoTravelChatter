@@ -4,11 +4,11 @@ This Chatter calls information from the Data folder (weather data file) and retu
 
 Question examples include:
 
-What is the temperature in (Location) today?
-What is the temperature in (Location) tomorrow?
-What is the temperature in (Location) the day after tomorrow?
-What is the temperature in (Location) on the 4th day?
-What is the temperature in (Location) in 5 days?
+- What is the temperature in (Location) today?
+- What is the temperature in (Location) tomorrow?
+- What is the temperature in (Location) the day after tomorrow?
+- What is the temperature in (Location) on the 4th day?
+- What is the temperature in (Location) in 5 days?
 
 Locations include:
 - Cumbria
@@ -32,5 +32,5 @@ Dependencies required (pip3 installs):
 Python version 3.7.9 required.
 
 Acknowledgements:
-*Scholar, P. (15/01/2022). Using Flask to build a Rule-based Chatbot in Python. https://hackernoon.com/using-flask-to-build-a-rule-based-chatbot-in-python 
-*Reviewed website for assistance with portions of HTML, CSS and Javascript code for Chatbot integration 
+- *Scholar, P. (15/01/2022). Using Flask to build a Rule-based Chatbot in Python. https://hackernoon.com/using-flask-to-build-a-rule-based-chatbot-in-python 
+- *Reviewed website for assistance with portions of HTML, CSS and Javascript code for Chatbot integration 
