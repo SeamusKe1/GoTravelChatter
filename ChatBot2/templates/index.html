@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    body {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    h1 {
+        color: black;
+        margin-bottom: 0;
+        margin-top:0;
+        text-align: center;
+        font-size: 40px
+    }
+
+    h3 {
+        colour: black;
+        font-size:20px;
+        margin-top: 3px;
+        text-align: center;
+    }
+    .row {
+          display: flex;
+          flex-wrap: wrap;
+          margin-right: -15px;
+          margin-left: -15px
+    }
+    .ml-auto{
+        margin-left:auto !important;
+    }
+    .mr-auto{
+        margin-right:auto !important;
+    }
+
+    .col-md-10,.col-md-8,.col-md-4{
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .col-md-8{flex:0 0 66.666667%;max-width:66.666667%}
+    .col-md-4{flex:0 0 33.333333%;max-width:33.333333%}
+    .col-md-10{flex:0 0 83.333333%;max-width:83.333333%}
+
+    .form-control {
+        background: no-repeat bottom,50% calc(100% - 1px);
+        background-image: none, none;
+        background-size: auto, auto;
+        background-size:0 100%,100%, 100%;
+        border: 0;
+        height: 36px
+        transition: background 0s ease-out;
+        padding-left: 0;
+        padding-right: 0;
+        border-radius: 0;
+        font-size: 14px;
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: .4375rem 0;
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        border:none;
+        background-colour: transparent;
+        background-clip: padding-box;
+        border-bottom: 1px solid #d2d2d2;
+        box-shadow: none;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+    .btn {
+        float: right;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        border: 1px solid transparent;
+        padding: .46875rem 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        background-color: #90EE90;
+    }
+    .btn-warning {
+        color: #90EE90;
+        background-color: #90EE90;
+        border-color: #90EE90;
+    }
+    .btn.btn-warning:active, .btn.btn-warning:focus, .btn.btn-warning:hover {
+        box-shadow: 0 14px 26px -12px rgba(0,237,0,.48),0 4px 23px 0 rgba(0,0,0,.8),
+    }
+
+    button, input, opt group, select, textarea {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        overflow:visible;
+    }
+
+    #chatbox {
+        background-color: light-gray;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        min-height: 70px;
+        margin-top: 60px;
+    }
+
+    #userInput {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 60px;
+        }
+
+    #textInput {
+        width: 87%;
+        border: none;
+        border-bottom: 3px solid #009688;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 17px;
+    }
+
+    #buttonInput {
+        padding: 3px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 17px;
+    }
+
+    .userText {
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 17px;
+        text-align: right !important;
+        line-height: 30px;
+        margin: 5px;
+    }
+
+    .userText span {
+        background-color: #90EE90;
+        padding: 10px;
+        border-radius: 2px;
+    }
+
+    .botText {
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 17px;
+        text-align: left;
+        line-height: 30px;
+        margin: 5px;
+    }
+
+    .botText span {
+        background-color: #D3D3D3;
+        padding: 10px;
+        border-radius: 2px;
+    }
+
+    #tidbit {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        }
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>{% block title%}{% endblock %}</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Home</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+            <a class="nav-link" href="cumbria">Cumbria</a>
+
+		<li class="nav-item">
+		    <a class="nav-link" href="corfe_castle">Corfe Castle</a>
+
+		<li class="nav-item">
+		    <a class="nav-link" href="the_cotswolds">The Cotswolds</a>
+
+		<li class="nav-item">
+		    <a class="nav-link" href="cambridge">Cambridge</a>
+                    <li class="nav-item">
+		    <a class="nav-link" href="bristol">Bristol</a>
+                    <li class="nav-item">
+		    <a class="nav-link" href="oxford">Oxford</a>
+                    <li class="nav-item">
+		    <a class="nav-link" href="norwich">Norwich</a>
+                    <li class="nav-item">
+		    <a class="nav-link" href="stonehenge">Stonehenge</a>
+                    <li class="nav-item">
+		    <a class="nav-link" href="watergate_bay">Watergate Bay</a>
+                    <li class="nav-item">
+		    <a class="nav-link" href="birmingham">Birmingham</a>
+		</li>
+	    </ul>
+        </nav>
+    {% block content %} {% endblock %}
+ <div class="row">
+        <div class="col-md-10 mr-auto ml-auto">
+            <h1>Go Travel Chatter</h1>
+            <form>
+                <div id="chatbox">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <p class="botText"><span>Hello, I am the Go Travel Chatter! Feel free to select a destination above for current weather or let me know how I can help today?</span></p>
+                    </div>
+                </div>
+                <div id="userInput" class="row">
+                    <div class="col-md-10">
+                        <input id="text" type="text" name="msg" placeholder="Write message here..." class="form-control">
+                        <button type="submit" id="send" class="btn btn-warning">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- some basic jscript to make text submission usable and to have bot return answer-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $("form").on("submit", function(event) {
+            var rawText = $("#text").val();
+            var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
+            $("#text").val("");
+            $("#chatbox").append(userHtml);
+            document.getElementById("userInput").scrollIntoView({
+                block: "start",
+                behavior: "smooth",
+            });
+            $.ajax({
+                data: {
+                    msg: rawText,
+                },
+                type: "POST",
+                url: "/get",
+            }).done(function(data) {
+                var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+                $("#chatbox").append($.parseHTML(botHtml));
+                document.getElementById("userInput").scrollIntoView({
+                    block: "start",
+                    behavior: "smooth",
+                });
+            });
+            event.preventDefault();
+        });
+    });
+</script>
+    </body>
+
+</html>

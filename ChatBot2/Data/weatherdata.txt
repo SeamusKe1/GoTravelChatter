@@ -1,0 +1,117 @@
+weather_talk =
+    What is the temperature in Cumbria today?
+    The temperature today in Cumbria is 17°C with light rain
+    What is the temperature in Cumbria tomorrow?
+    The temperature in Cumbria tomorrow is 20°C slightly overcast
+    What is the temperature in Cumbria the day after tomorrow?
+    The temperature in 3 days in Cumbria is 22°C with light rain
+    What is the temperature in Cumbria on the 4th day?
+    The temperature in Cumbria in 4 days is 20°C with light rain
+    What is the temperature in Cumbria in 5 days?
+    The temperature in Cumbria in 5 days is 16°C with moderate rain - bring a jacket!
+
+    What is the temperature in Corfe Castle today?
+    The temperature in Corfe Castle today is 17°C with light rain
+    What is the temperature in Corfe Castle tomorrow?
+    The temperature in Corfe Castle tomorrow is 18°C slightly cloudy
+    What is the temperature in Corfe Castle the day after tomorrow?
+    The temperature in 3 days in Corfe Castle is 19°C - clear skies all around!
+    What is the temperature in Corfe Castle on the 4th day?
+    The temperature in Corfe Castle in 4 days is 21°C - a second day of clear skies!
+    What is the temperature in Corfe Castle in 5 days?
+    The temperature in Corfe Castle in 5 days is 21°C with light rain
+
+    What is the temperature in Cambridge today?
+    The temperature in Cambridge today is 20°C with light rain
+    What is the temperature in Cambridge tomorrow?
+    The temperature in Cambridge tomorrow is 22°C - clear skies all around!
+    What is the temperature in Cambridge the day after tomorrow?
+    The temperature in 3 days in Cambridge is 24°C slightly cloudy
+    What is the temperature in Cambridge on the 4th day?
+    The temperature in Cambridge in 4 days is 24°C with light rain
+    What is the temperature in Cambridge in 5 days?
+    The temperature in Cambridge in 5 days is 25°C with moderate rain - bring a jacket!
+
+    What is the temperature in Bristol today?
+    The temperature in Bristol today is 19°C with light rain
+    What is the temperature in Bristol tomorrow?
+    The temperature in Bristol tomorrow is 20°C with overcast clouds
+    What is the temperature in Bristol the day after tomorrow?
+    The temperature in 3 days in Bristol is 22°C with broken clouds
+    What is the temperature in Bristol on the 4th day?
+    The temperature in Bristol in 4 days is 23°C with clear skies
+    What is the temperature in Bristol in 5 days?
+    The temperature in Bristol in 5 days is 22°C with light rain
+
+    What is the temperature in Oxford today?
+    The temperature in Oxford today is 20°C with moderate rain - bring a jacket!
+    What is the temperature in Oxford tomorrow?
+    The temperature in Oxford tomorrow is 22°C with clear blue skies
+    What is the temperature in Oxford the day after tomorrow?
+    The temperature in 3 days in Oxford is 24°C with scattered clouds
+    What is the temperature in Oxford on the 4th day?
+    The temperature in Oxford in 4 days is 24°C with another day of clear skies
+    What is the temperature in Oxford in 5 days?
+    The temperature in Oxford in 5 days is 21°C with light rain
+
+    What is the temperature in Stonehenge today?
+    The temperature in Stonehenge today is 18°C with light rain
+    What is the temperature in Stonehenge tomorrow?
+    The temperature in Stonehenge tomorrow is 20°C with scattered clouds
+    What is the temperature in Stonehenge the day after tomorrow?
+    The temperature in 3 days in Stonehenge is 22°C with clear blue skies
+    What is the temperature in Stonehenge on the 4th day?
+    The temperature in Stonehenge in 4 days is 24°C with light rain
+    What is the temperature in Stonehenge in 5 days?
+    The temperature in Stonehenge in 5 days is 22°C with moderate rain - bring a jacket!
+
+    What is the temperature in Norwich today?
+    The temperature in Norwich today is 20°C with light rain
+    What is the temperature in Norwich tomorrow?
+    The temperature in Norwich tomorrow is 23°C with clear blue skies
+    What is the temperature in Norwich the day after tomorrow?
+    The temperature in 3 days in Norwich is 23°C with a few clouds
+    What is the temperature in Norwich on the 4th day?
+    The temperature in Norwich in 4 days is 25°C with another day of clear blue skies!
+    What is the temperature in Norwich in 5 days?
+    The temperature in Norwich in 5 days is 25°C with some more clear skies
+
+    What is the temperature in Watergate Bay today?
+    The temperature in Watergate Bay today is 17°C with light rain
+    What is the temperature in Watergate Bay tomorrow?
+    The temperature in Watergate Bay tomorrow is 18°C with overcast clouds
+    What is the temperature in Watergate Bay the day after tomorrow?
+    The temperature in 3 days in Watergate Bay is 19°C with scattered clouds
+    What is the temperature in Watergate Bay on the 4th day?
+    The temperature in Watergate Bay in 4 days is 19°C with light rain
+    What is the temperature in Watergate Bay in 5 days?
+    The temperature in Watergate Bay in 5 days is 17°C with light rain
+
+    What is the temperature in Birmingham today?
+    The temperature in Birmingham today is 20°C with light rain
+    What is the temperature in Birmingham tomorrow?
+    The temperature in Birmingham tomorrow is 21°C with broken clouds
+    What is the temperature in Birmingham the day after tomorrow?
+    The temperature in 3 days in Birmingham is 23°C with clear blue skies
+    What is the temperature in Birmingham on the 4th day?
+    The temperature in Birmingham in 4 days is 24°C with light rain
+    What is the temperature in Birmingham in 5 days?
+    The temperature in Birmingham in 5 days is 22°C with light rain
+
+    What is the temperature in The Cotswolds today?
+    The temperature in The Cotswolds today is 19°C with moderate rain - bring a jacket!
+    What is the temperature in The Cotswolds tomorrow?
+    The temperature in The Cotswolds tomorrow is 22°C with clear blue skies
+    What is the temperature in The Cotswolds the day after tomorrow?
+    The temperature in 3 days in The Cotswolds is 24°C with scattered clouds
+    What is the temperature in The Cotswolds on the 4th day?
+    The temperature in The Cotswolds in 4 days is 24°C with clear blue skies
+    What is the temperature in The Cotswolds in 5 days?
+    The temperature in Birmingham in 5 days is 22°C with light rain
+
+    What is the weather?
+    Please be more specific, such as "What is the temperature at (Destination) today?"
+    What is the weather in Cambridge today?
+    Please be more specific, such as "What is the temperature at (Destination) today?"
+    What is the weather in Norwich?
+    Please be more specific, such as "What is the temperature at (Destination) today?"
